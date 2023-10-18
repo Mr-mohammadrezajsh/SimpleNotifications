@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 20) {
+            Text("Mohammadrezajsh").font(.largeTitle).foregroundColor(.mint)
             Spacer()
             Button("Send notification in 5 seconds") {
                 notify.sendNotification(
